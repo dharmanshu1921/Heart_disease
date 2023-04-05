@@ -53,10 +53,13 @@ Things we have to perform
 
 > Model Building
   https://www.kaggle.com/code/dansbecker/building-your-model
+  
 > Model Selection (comparing the performance of different models)
   https://www.kaggle.com/code/rishikhanna/model-selection
+  
 > Hyper-parameter Tuning
   https://www.kaggle.com/code/shreayan98c/hyperparameter-tuning-tutorial
+  
 > Model Deployment
   https://towardsdatascience.com/september-edition-deploying-machine-learning-models-1c79185e88b5
 
