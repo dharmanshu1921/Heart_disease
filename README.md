@@ -48,13 +48,15 @@ Things we have to perform
   https://www.kaggle.com/code/imoore/intro-to-exploratory-data-analysis-eda-in-python
 
 > Feature Selection and Feature Engineering
+  https://www.kaggle.com/code/willkoehrsen/introduction-to-feature-selection 
+  https://www.kaggle.com/code/anshankul/feature-selection-feature-engineering-techniques
 
 > Model Building
-
+  https://www.kaggle.com/code/dansbecker/building-your-model
 > Model Selection (comparing the performance of different models)
-
+  https://www.kaggle.com/code/rishikhanna/model-selection
 > Hyper-parameter Tuning
-
+  https://www.kaggle.com/code/shreayan98c/hyperparameter-tuning-tutorial
 > Model Deployment
-
+  https://towardsdatascience.com/september-edition-deploying-machine-learning-models-1c79185e88b5
 
