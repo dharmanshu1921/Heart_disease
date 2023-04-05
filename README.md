@@ -2,45 +2,57 @@
 
 Deadline-23rd April
 
-Context
+File descriptions
 
-This is a multivariate type of dataset which means providing or involving a variety of separate mathematical or statistical variables, multivariate numerical data analysis. It is composed of 14 attributes which are age, sex, chest pain type, resting blood pressure, serum cholesterol, fasting blood sugar, resting electrocardiographic results, maximum heart rate achieved, exercise-induced angina, oldpeak — ST depression induced by exercise relative to rest, the slope of the peak exercise ST segment, number of major vessels and Thalassemia. This database includes 76 attributes, but all published studies relate to the use of a subset of 14 of them. The Cleveland database is the only one used by ML researchers to date. One of the major tasks on this dataset is to predict based on the given attributes of a patient that whether that particular person has heart disease or not and other is the experimental task to diagnose and find out various insights from this dataset which could help in understanding the problem more.
+train.csv - the training set. 
+Contains 4250 lines with 20 columns. 3652 samples (85.93%) belong to class churn=no and 598 samples (14.07%) belong to class churn=yes
 
-Column Descriptions:
+test.csv - the test set. 
+Contains 750 lines with 20 columns: the index of each sample and the 19 features (missing the target variable "churn").
 
-1.id (Unique id for each patient)
+sampleSubmission.csv - a sample submission file in the correct format
 
-2.age (Age of the patient in years)
+Data fields
 
-3.origin (place of study)
+state, string. 2-letter code of the US state of customer residence
 
-4.sex (Male/Female)
+account_length, numerical. Number of months the customer has been with the current telco provider
 
-5.cp chest pain type ([typical angina, atypical angina, non-anginal, asymptomatic])
+area_code, string="area_code_AAA" where AAA = 3 digit area code.
 
-6.trestbps resting blood pressure (resting blood pressure (in mm Hg on admission to the hospital))
+international_plan, (yes/no). The customer has international plan.
 
-7.chol (serum cholesterol in mg/dl)
+voice_mail_plan, (yes/no). The customer has voice mail plan.
 
-8.fbs (if fasting blood sugar > 120 mg/dl)
+number_vmail_messages, numerical. Number of voice-mail messages.
 
-9.restecg (resting electrocardiographic results)
+total_day_minutes, numerical. Total minutes of day calls.
 
--- Values: [normal, stt abnormality, lv hypertrophy]
+total_day_calls, numerical. Total number of day calls.
 
-10.thalach: maximum heart rate achieved
+total_day_charge, numerical. Total charge of day calls.
 
-11.exang: exercise-induced angina (True/ False)
+total_eve_minutes, numerical. Total minutes of evening calls.
 
-12.oldpeak: ST depression induced by exercise relative to rest
+total_eve_calls, numerical. Total number of evening calls.
 
-13.slope: the slope of the peak exercise ST segment
+total_eve_charge, numerical. Total charge of evening calls.
 
-14.ca: number of major vessels (0-3) colored by fluoroscopy
+total_night_minutes, numerical. Total minutes of night calls.
 
-15thal: [normal; fixed defect; reversible defect]
+total_night_calls, numerical. Total number of night calls.
 
-16.num: the predicted attribute
+total_night_charge, numerical. Total charge of night calls.
+
+total_intl_minutes, numerical. Total minutes of international calls.
+
+total_intl_calls, numerical. Total number of international calls.
+
+total_intl_charge, numerical. Total charge of international calls
+
+number_customer_service_calls, numerical. Number of calls to customer service
+
+churn, (yes/no). Customer churn - target variable.
 
 Things we have to perform
 
