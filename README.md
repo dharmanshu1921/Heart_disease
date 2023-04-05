@@ -42,3 +42,18 @@ Column Descriptions:
 
 16.num: the predicted attribute
 
+Things we have to perform
+
+> Exploratory Data Analysis (EDA)
+
+> Feature Selection and Feature Engineering
+
+> Model Building
+
+> Model Selection (comparing the performance of different models)
+
+> Hyper-parameter Tuning
+
+> Model Deployment
+
+
