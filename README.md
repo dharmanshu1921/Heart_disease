@@ -45,6 +45,7 @@ Column Descriptions:
 Things we have to perform
 
 > Exploratory Data Analysis (EDA)
+  https://www.kaggle.com/code/imoore/intro-to-exploratory-data-analysis-eda-in-python
 
 > Feature Selection and Feature Engineering
 
