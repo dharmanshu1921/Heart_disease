@@ -48,7 +48,9 @@ Things we have to perform
   https://www.kaggle.com/code/imoore/intro-to-exploratory-data-analysis-eda-in-python
 
 > Feature Selection and Feature Engineering
+  
   https://www.kaggle.com/code/willkoehrsen/introduction-to-feature-selection 
+  
   https://www.kaggle.com/code/anshankul/feature-selection-feature-engineering-techniques
 
 > Model Building
