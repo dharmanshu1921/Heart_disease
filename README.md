@@ -4,19 +4,36 @@ This is a multivariate type of dataset which means providing or involving a vari
 
 Column Descriptions:
 1.id (Unique id for each patient)
+
 2.age (Age of the patient in years)
+
 3.origin (place of study)
+
 4.sex (Male/Female)
+
 5.cp chest pain type ([typical angina, atypical angina, non-anginal, asymptomatic])
+
 6.trestbps resting blood pressure (resting blood pressure (in mm Hg on admission to the hospital))
+
 7.chol (serum cholesterol in mg/dl)
+
 8.fbs (if fasting blood sugar > 120 mg/dl)
+
 9.restecg (resting electrocardiographic results)
+
 -- Values: [normal, stt abnormality, lv hypertrophy]
+
 10.thalach: maximum heart rate achieved
+
 11.exang: exercise-induced angina (True/ False)
+
 12.oldpeak: ST depression induced by exercise relative to rest
+
 13.slope: the slope of the peak exercise ST segment
+
 14.ca: number of major vessels (0-3) colored by fluoroscopy
+
 15thal: [normal; fixed defect; reversible defect]
+
 16.num: the predicted attribute
+
