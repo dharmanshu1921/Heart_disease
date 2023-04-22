@@ -1,5 +1,4 @@
-# Heart_disease
-
+# Churning Prediction
 Deadline-23rd April
 
 File descriptions
