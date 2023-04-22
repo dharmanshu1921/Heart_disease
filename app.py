@@ -5,8 +5,8 @@ import joblib
 
 
 model = joblib.load('churn_model.pkl')
-df = pd.read_csv("/Users/dharmanshusingh/folder/ml/ML/Project/customer-churn-prediction-2020/train.csv")
-encoders = joblib.load('/Users/dharmanshusingh/folder/ml/ML/Project/encoders.pkl')
+df = pd.read_csv("customer-churn-prediction-2020/train.csv")
+encoders = joblib.load('encoders.pkl')
 
 
 def app():
